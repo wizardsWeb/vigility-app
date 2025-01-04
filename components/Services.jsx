@@ -203,38 +203,42 @@ export const CloseIcon = () => {
 const cards = [
   {
     description:
-      "Empowering businesses to align with environmental, social, and governance (ESG) frameworks through comprehensive reporting solutions.",
-    title: "ESG Reporting",
+      "Vigility has extensive experience implementing top EMS tools like CA, IBM, HP, BMC, ServiceNow, and Dynatrace. Our team offers a full range of related services - from design and customization to implementation, migration, and maintenance.",
+    title: "EMS - Enterprise Management Systems",
     src: "https://www.vigility.in/imgs/ITIL-course.png",
     ctaText: "View",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
       return (
-        <p>
-          Capabilities:
-          <p>1. Development of ESG strategies tailored to industry standards.</p>
-          <p>2. Compliance-driven reporting aligned with global frameworks like GRI and SASB.</p>
-          <p>3. Data collection, validation, and visualization for transparent disclosure.</p>
-        </p>
+        <div>
+          Our Offerings
+          <p>1. User & resource identity/access management</p>
+          <p>2. Agent-based/agentless monitoring with automation</p>
+          <p>3. Endpoint protection and application/device control</p>
+          <p>4. Auto-discovery, asset management, incident tracking</p>
+          <p>5. Centralized patch and endpoint management</p>
+        </div>
       );
     },
   },
   {
     description:
-      "Providing precise greenhouse gas (GHG) accounting services to help organizations measure and reduce their carbon footprint.",
-    title: "GHG Accounting",
+      "Vigility's infrastructure lifecycle management takes the worry out of running your IT. Our experts leverage decades of experience to help you efficiently execute in every area - from planning and operations to end-of-life.",
+    title: "Infrastructure Management Solutions",
     src: "https://www.vigility.in/imgs/ITIL-course.png",
     ctaText: "View",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
       return (
         <>
-          <p>
-          Capabilities:
-            <p>1. Scope 1, 2, and 3 emissions tracking and reporting.</p>
-            <p>2. Carbon footprint assessments for sustainability planning.</p>
-            <p>3. Customized dashboards for monitoring emissions performance.</p>
-          </p>
+          <div>
+            Our Offerings
+            <p>1. Project management, design, delivery, and ongoing support</p>
+            <p>2. Process implementation for improved IT services</p>
+            <p>3. Monitoring, troubleshooting, and SLA optimization</p>
+            <p>4. Comprehensive IT support and resource management</p>
+            <p>5. Capacity optimization and forecasting</p>
+          </div>
         </>
       );
     },
@@ -242,19 +246,26 @@ const cards = [
 
   {
     description:
-      "Streamlining Business Responsibility and Sustainability Reporting (BRSR) for Indian businesses to meet SEBI/'s regulatory requirements.",
-    title: "BRSR Reporting",
+      "We specialize in both open-source and proprietary platforms, delivering tailored solutions that align with your business needs and budget to ensure maximum ROI. Our expertise includes:",
+    title: "Software Development Expertise",
     src: "https://www.vigility.in/imgs/ITIL-course.png",
     ctaText: "View",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
       return (
         <>
-           <p>
-          Capabilities:
-            <p>1. End-to-end assistance with BRSR compliance and disclosure.</p>
-            <p>2. Integration of sustainability metrics into organizational reporting.</p>
-            <p>3. Stakeholder engagement through transparent and accessible reports.</p>
+          <p>1. Frameworks: PHP (CakePHP, Symphony), Opencart, and more.</p>
+          <p>2. CMS Platforms: WordPress, Joomla, Drupal, Moodle.</p>
+          <p>3. E-commerce Solutions: Magento, Opencart, OSCommerce, Drupal.</p>
+          <p>
+            4. Core Development Skills: Proficient in Java, PHP, ReactJS, VueJS,
+            CSS, Node, Golang, Django, Flask.
+          </p>
+
+          <p>
+            By integrating these technologies, we enhance customer experience,
+            boost product recall, and elevate brand value to drive revenue
+            growth for our clients.
           </p>
         </>
       );
@@ -262,19 +273,23 @@ const cards = [
   },
   {
     description:
-      'Leveraging advanced data analytics to turn complex datasets into actionable insights through intuitive visualizations.',
-    title: "Data Analysis and Management (Visualization)",
+      'Vigility Technologies offers RPA solutions to automate business processes using software "robots" that capture, interpret, and process data across digital systems. Our RPA solutions enhance operational efficiency, improve productivity, and streamline workflows, enabling organizations to:',
+    title: "Robotic Process Automation (RPA)",
     src: "https://www.vigility.in/imgs/ITIL-course.png",
     ctaText: "View",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
       return (
         <>
-           <p>
-          Capabilities:
-            <p>1. Real-time data integration and reporting.</p>
-            <p>2. Interactive dashboards for better decision-making.</p>
-            <p>3. Advanced analytics for sustainability and ESG metrics.</p>
+          <p>
+            1. Optimize Resources: Free up IT professionals to focus on
+            strategic initiatives like ERP and BPMS rollouts.
+          </p>
+          2. Boost Efficiency: Automate repetitive tasks to increase workforce
+          capacity and reduce errors.
+          <p>
+            3. Achieve Agility: Enable faster, smoother operations, giving
+            companies a competitive edge.
           </p>
         </>
       );
@@ -282,19 +297,27 @@ const cards = [
   },
   {
     description:
-      "Mitigating climate-related risks by forecasting and modeling potential impacts on business operations and assets.",
-    title: "Climate Risk Modeling",
+      "Vigility Technologies provides specialized IT manpower and consulting services to optimize operations and reduce costs.",
+    title: "Outsource Consulting and Virtual Manpower Services",
     src: "https://www.vigility.in/imgs/ITIL-course.png",
     ctaText: "View",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
       return (
         <>
-           <p>
-          Capabilities:
-            <p>1. Scenario analysis for physical and transition risks.</p>
-            <p>2. Climate data integration for predictive modeling.</p>
-            <p>3. Risk mitigation strategies tailored to industry challenges.</p>
+          <p>
+            1. Outsource Consulting: Tailored solutions to improve IT efficiency
+            with reporting, notifications, and auditing based on standard
+            processes.
+          </p>
+          <p>
+            2. Virtual Manpower Services: Access to top professionals for short-
+            or long-term needs, solving resource challenges without full-time
+            hiring.
+          </p>
+          <p>
+            3. Resources-as-a-Service (RaaS): Flexible solutions to focus on
+            core objectives while we manage your resource needs efficiently.
           </p>
         </>
       );
@@ -302,19 +325,34 @@ const cards = [
   },
   {
     description:
-      "Designing tailored sustainability solutions that address specific organizational goals and challenges.",
-    title: "Customized Sustainability Solutions",
+      "Vigility Technologies offers comprehensive IT infrastructure support to maximize uptime and efficiency.",
+    title: "Business Services",
     src: "https://www.vigility.in/imgs/ITIL-course.png",
     ctaText: "View",
     ctaLink: "https://ui.aceternity.com/templates",
     content: () => {
       return (
         <>
-           <p>
-          Capabilities:
-            <p>1. Sustainable strategy development aligned with global goals (e.g., SDGs).</p>
-            <p>2. Lifecycle assessments to minimize environmental impact.</p>
-            <p>3. Industry-specific initiatives to enhance long-term sustainability.</p>
+          <p>
+            1. Implementation Services: Identify gaps, design solutions, and
+            implement processes for proactive IT issue detection and resolution.
+          </p>
+          <p>
+            2. Upgradation & Migration: Seamless updates to the latest EMS tool
+            versions without data loss.
+          </p>
+          <p>
+            3. On-Call Support: 24/7 remote support via a dedicated portal, with
+            customizable service models.
+          </p>
+          <p>
+            4. SLA Management: Ensure uptime with SLA-based support and ticket
+            tracking.
+          </p>
+          <p>
+            5. Expert Resources: Skilled in EMS tools like CA Broadcom,
+            ServiceNow, Dynatrace, and more. 6. Reporting & Analytics: Regular
+            reviews and actionable insights for continuous improvement.
           </p>
         </>
       );
