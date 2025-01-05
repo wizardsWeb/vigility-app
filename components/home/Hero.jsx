@@ -23,13 +23,13 @@ const Hero = () => {
 
           <div className="absolute -top-32 left-[calc(50%-340px)] w-[1230px] pointer-events-none hero-img_res">
             <div className=''>
-            {/* <Spline
+            <Spline
               scene="https://prod.spline.design/c2PFvXJp1CDjOTcb/scene.splinecode" 
               // style={{ transform: "scale(0.7)", borderRadius: '50%' }} // Scale down the object to fit
               className='scale-50 opacity-30 md:scale-75 md:opacity-50 lg:opacity-100 lg:rounded-[50%]'
               width={200}
               height={200}
-              /> */}
+              />
             </div>
           </div>
         </div>
