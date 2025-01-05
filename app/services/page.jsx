@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from "@/components/Header";
-import Services from '@/components/Services';
+import Services from '@/components/services/Services';
 import Footer from '@/components/Footer';
 
 const page = () => {

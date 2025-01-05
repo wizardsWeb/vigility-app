@@ -1,7 +1,7 @@
 "use client";
  
 import React, { useEffect, useState } from "react";
-import { InfiniteMovingCards } from "./ui/infinite-moving-cards.jsx";
+import { InfiniteMovingCards } from "../ui/infinite-moving-cards.jsx";
 const Sponsers = () => {
   return (
     <div className='flex justify-between items-center font-medium px-10 mx-auto'>

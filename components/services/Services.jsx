@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { useEffect, useId, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useOutsideClick } from "@/hooks/useOutsideClick.jsx";
-import Button from "./Button";
+import Button from "../home/Button";
 
 export default function Services() {
   const [active, setActive] = useState(null);

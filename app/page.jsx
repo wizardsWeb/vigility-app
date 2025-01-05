@@ -1,12 +1,12 @@
-import Apps from "@/components/Apps";
+import Apps from "@/components/home/Apps";
 import BusinessModel from "@/components/BusinessModel";
 import Customer from "@/components/Customer";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import Sponsers from "@/components/Sponsers";
-import Strengths from "@/components/Strengths";
-import { Values } from "@/components/Values";
+import Hero from "@/components/home/Hero";
+import Sponsers from "@/components/home/Sponsers";
+import Strengths from "@/components/home/Strengths";
+import { Values } from "@/components/home/Values";
 export default function Home() {
   return (
       <div className='overflow-hidden px-4 md:px-10 max-m-[100rem] mx-auto'>

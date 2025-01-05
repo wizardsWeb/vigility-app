@@ -1,9 +1,7 @@
-import AiCardGrid from '@/components/ai/AiCardGrid'
-import { AiHeroSection } from '@/components/ai/AiHeroSection'
-import { AiSolution } from '@/components/ai/AiSolution'
+import EgsHero from '@/components/egs/EgsHero'
+import EgsList from '@/components/egs/EgsList'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
-import ResultsAchieved from '@/components/ResultsAchieved'
 import React from 'react'
 
 const page = () => {
@@ -13,17 +11,12 @@ const page = () => {
         <div className='h-full px-4 md:px-10 max-w-[100rem] mx-auto'>
           <Header />
         </div>
+        
         <div className='h-full px-4 md:px-10 max-w-[100rem] mx-auto'>
-          <AiHeroSection />
+            <EgsHero />
         </div>
         <div className='h-full px-4 md:px-10 max-w-[100rem] mx-auto'>
-          <AiCardGrid />
-        </div>
-        <div className='h-full px-4 md:px-10 max-w-[100rem] mx-auto'>
-          <AiSolution />
-        </div>
-        <div className='h-full px-4 md:px-10 max-w-[100rem] mx-auto'>
-          <ResultsAchieved />
+            <EgsList />
         </div>
         <div className='h-full px-4 md:px-10 max-w-[100rem] mx-auto'>
           <Footer />

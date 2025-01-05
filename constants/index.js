@@ -136,3 +136,73 @@ export const aiCardData = [
     ),
   },
 ];
+
+
+export const egsList = [
+  {
+    id: 1,
+    image: "https://images.unsplash.com/photo-1735236270655-907c43955b93?q=80&w=3774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "ESG Reporting",
+    description: "Empowering businesses to align with environmental, social, and governance (ESG) frameworks through comprehensive reporting solutions.",
+    capabilities: [
+      "Development of ESG strategies tailored to industry standards.",
+      "Compliance-driven reporting aligned with global frameworks like GRI and SASB.",
+      "Data collection, validation, and visualization for transparent disclosure."
+    ]
+  },
+  {
+    id: 2,
+    image: "https://plus.unsplash.com/premium_photo-1664474619075-644dd191935f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2V8ZW58MHx8MHx8fDA%3D",
+    title: "GHG Accounting",
+    description: "Providing precise greenhouse gas (GHG) accounting services to help organizations measure and reduce their carbon footprint.",
+    capabilities: [
+      "Scope 1, 2, and 3 emissions tracking and reporting.",
+      "Carbon footprint assessments for sustainability planning.",
+      "Customized dashboards for monitoring emissions performance."
+    ]
+  },
+  {
+    id: 3,
+    image: "https://images.unsplash.com/photo-1573497491208-6b1acb260507?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800", 
+    title: "BRSR Reporting",
+    description: "Streamlining Business Responsibility and Sustainability Reporting (BRSR) for Indian businesses to meet SEBI’s regulatory requirements.",
+    capabilities: [
+      "End-to-end assistance with BRSR compliance and disclosure.",
+      "Integration of sustainability metrics into organizational reporting.",
+      "Stakeholder engagement through transparent and accessible reports."
+    ]
+  },
+  {
+    id: 4,
+    image: "https://images.unsplash.com/photo-1573497491208-6b1acb260507?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+    title: "Data Analysis and Management (Visualization)",
+    description: "Leveraging advanced data analytics to turn complex datasets into actionable insights through intuitive visualizations.",
+    capabilities: [
+      "Real-time data integration and reporting.",
+      "Interactive dashboards for better decision-making.",
+      "Advanced analytics for sustainability and ESG metrics."
+    ]
+  },
+  {
+    id: 5,
+    image: "https://images.unsplash.com/photo-1573497491208-6b1acb260507?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+    title: "Climate Risk Modeling",
+    description: "Mitigating climate-related risks by forecasting and modeling potential impacts on business operations and assets.",
+    capabilities: [
+      "Scenario analysis for physical and transition risks.",
+      "Climate data integration for predictive modeling.",
+      "Risk mitigation strategies tailored to industry challenges."
+    ]
+  },
+  {
+    id: 6,
+    image: "https://images.unsplash.com/photo-1562577309-2592ab84b1bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=800",
+    title: "Customized Sustainability Solutions",
+    description: "Designing tailored sustainability solutions that address specific organizational goals and challenges.",
+    capabilities: [
+      "Sustainable strategy development aligned with global goals (e.g., SDGs).",
+      "Lifecycle assessments to minimize environmental impact.",
+      "Industry-specific initiatives to enhance long-term sustainability."
+    ]
+  }
+];

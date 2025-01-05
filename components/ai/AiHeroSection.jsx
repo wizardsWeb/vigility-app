@@ -1,5 +1,5 @@
 import React from "react";
-import { Spotlight } from "./ui/spotlight";
+import { Spotlight } from "../ui/spotlight";
 
 export function AiHeroSection() {
   return (

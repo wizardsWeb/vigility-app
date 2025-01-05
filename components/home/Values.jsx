@@ -1,7 +1,7 @@
 "use client";
 import { cn } from "@/lib/utils";
 import React, {useState, useEffect} from "react";
-import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
+import { BentoGrid, BentoGridItem } from "../ui/BentoGrid";
 import {
   IconBoxAlignRightFilled,
   IconClipboardCopy,

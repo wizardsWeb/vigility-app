@@ -2,9 +2,9 @@
 import React from 'react';
 import Header from "@/components/Header";
 import Footer from '@/components/Footer';
-import About from '@/components/About';
-import { Testimonials } from '@/components/Testimonials';
-import Vision from '@/components/Vision';
+import About from '@/components/about/About';
+import { Testimonials } from '@/components/about/Testimonials';
+import Vision from '@/components/about/Vision';
 
 const page = () => {
   return (

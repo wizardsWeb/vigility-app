@@ -23,6 +23,7 @@ const Header = () => {
             <Link href="/services" className="hover:text-white transition-colors duration-200">Services</Link>
             <Link href="/about" className="hover:text-white transition-colors duration-200">About</Link>
             <Link href="/ai" className="hover:text-white transition-colors duration-200">AI</Link>
+            <Link href="/egs-services" className="hover:text-white transition-colors duration-200">Egs</Link>
           </ul>
         </div>
 
@@ -75,6 +76,13 @@ const Header = () => {
             href="/"
           >
             AI
+          </Link>
+          <Link
+            onClick={() => setIsOpen(false)}
+            className="my-5 pl-10 hover:text-white transition-colors duration-200"
+            href="/egs-services"
+          >
+            Egs
           </Link>
         </div>
       </div>

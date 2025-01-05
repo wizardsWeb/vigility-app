@@ -1,5 +1,5 @@
 import React from 'react'
-import { HoverEffect } from "./ui/card-hover-effect";
+import { HoverEffect } from "../ui/card-hover-effect";
 
 const Strengths = () => {
   return (
